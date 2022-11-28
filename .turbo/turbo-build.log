@@ -1,0 +1,14 @@
+[34m@nodetoy/react-nodetoy:build[0m: cache hit, replaying output [2m61ac8ec82d54f4e5[0m
+[34m@nodetoy/react-nodetoy:build: [0mwarning package.json: No license field
+[34m@nodetoy/react-nodetoy:build: [0m$ tsc && vite build
+[34m@nodetoy/react-nodetoy:build: [0m[36mvite v2.9.15 [32mbuilding for production...[36m[39m
+[34m@nodetoy/react-nodetoy:build: [0mtransforming...
+[34m@nodetoy/react-nodetoy:build: [0m[32m✓[39m 25 modules transformed.
+[34m@nodetoy/react-nodetoy:build: [0mrendering chunks...
+[34m@nodetoy/react-nodetoy:build: [0m[90m[37m[2mdist/[22m[90m[39m[36mreact-nodetoy.es.js  [39m [33m539.04 KiB / gzip: 133.02 KiB[39m
+[34m@nodetoy/react-nodetoy:build: [0mNo name was provided for external module 'three' in output.globals – guessing 'H'
+[34m@nodetoy/react-nodetoy:build: [0m[90m[37m[2mdist/[22m[90m[39m[36mreact-nodetoy.umd.js  [39m [2m369.49 KiB / gzip: 116.75 KiB[22m
+[34m@nodetoy/react-nodetoy:build: [0m
+[34m@nodetoy/react-nodetoy:build: [0m[vite:dts] Start generate declaration files...
+[34m@nodetoy/react-nodetoy:build: [0m[vite:dts] Declaration files built in 4848ms.
+[34m@nodetoy/react-nodetoy:build: [0m
