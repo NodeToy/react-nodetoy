@@ -1,9 +1,11 @@
 import React from 'react';
-import { NodeToyMaterial } from '../../../src';
+import { NodeToyMaterial } from '@nodetoy/react-nodetoy';
 import * as THREE from "three"
 import { useRef, useState } from "react"
 import { Canvas, extend, useFrame } from "@react-three/fiber"
 import { useTexture, shaderMaterial } from "@react-three/drei"
+
+console.log('nodeToyMaterial', NodeToyMaterial);
 
 function FadingImage() {
   const materialRef = useRef<any>(null);

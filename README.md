@@ -11,8 +11,7 @@
 ## Example
 
 ```tsx
-
-import NodeToyMaterial from '@nodetoy/react-nodetoy';
+import { NodeToyMaterial } from '@nodetoy/react-nodetoy';
 
 export default function App() {
   return (
@@ -23,15 +22,31 @@ export default function App() {
         onPointerOver={(e) => console.log('hover')}
         onPointerOut={(e) => console.log('unhover')}
         >
-            <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
-            <NodeToyMaterial graph="https://draft.nodetoy.co/mkUZq47JZsgaPmdC" />
-        </mesh>
+        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+        <NodeToyMaterial graph="https://draft.nodetoy.co/nFvoIaHuvkvm3uMa" />
+      </mesh>
     </Canvas>
   );
 }
-
 ```
 
+If you materials are using any time nodes (Time, SinTime, CosTime...), add the `NodeToyTick` component to your scene. This will update the time of the materials every frame.
+
+```tsx
+import { NodeToyMaterial, NodeToyTick } from '@nodetoy/react-nodetoy';
+
+export default function App() {
+  return (
+    <Canvas>
+      <mesh>
+        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+        <NodeToyMaterial graph="https://draft.nodetoy.co/nFvoIaHuvkvm3uMa" />
+      </mesh>
+      <NodeToyTick/>
+    </Canvas>
+  );
+}
+```
 
 ## API
 

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
-import { Link } from 'wouter'
+// import { Link } from 'wouter'
 
 const Page = styled.div`
   position: fixed;

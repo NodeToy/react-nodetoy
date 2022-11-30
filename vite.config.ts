@@ -23,7 +23,7 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['react', 'react-dom', 'three'],
+      external: ['react', 'react-dom', 'three', '@react-three/fiber'],
       output: {
         // Override dist folder because root is in the example/ folder
         dir: 'dist',
