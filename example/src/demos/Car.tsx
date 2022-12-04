@@ -65,10 +65,10 @@ export default function App() {
               maxDepthThreshold={1.4}
               color="#101010"
               metalness={0.5}
+              mirror={1}
             />
           </mesh>
           </PresentationControls>
-
           <ContactShadows position={[0, -0.8, 0]} opacity={0.25} scale={10} blur={1.5} far={0.8} />
         </Suspense>
         <NodeToyTick/>

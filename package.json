@@ -1,6 +1,6 @@
 {
   "name": "@nodetoy/react-nodetoy",
-  "version": "0.1.2",
+  "version": "0.1.21",
   "files": [
     "dist"
   ],
@@ -14,7 +14,8 @@
     }
   },
   "scripts": {
-    "dev": "vite",
+    "demo": "cd example && npm run dev",
+    "dev": "tsc && vite build --watch",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "deploy": "yarn build && np"
@@ -33,9 +34,11 @@
     "three": ">=0.143.0"
   },
   "dependencies": {
-    "@nodetoy/shared-nodetoy": "*",
-    "@nodetoy/three-nodetoy": "*",
+    "@nodetoy/shared-nodetoy": "latest",
+    "@nodetoy/three-nodetoy": "latest",
     "@react-three/fiber": "^8.9.1",
-    "three": ">=0.143.0"
+    "three": ">=0.143.0",
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
   }
 }

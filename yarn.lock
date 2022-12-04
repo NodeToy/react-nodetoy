@@ -323,17 +323,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nodetoy/shared-nodetoy@*", "@nodetoy/shared-nodetoy@^0.2.0":
+"@nodetoy/shared-nodetoy@^0.2.0", "@nodetoy/shared-nodetoy@latest":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@nodetoy/shared-nodetoy/-/shared-nodetoy-0.2.0.tgz#1a2c48ad6563df7585cb1e3dfc80224260c8f5e3"
   integrity sha512-b4xciwBrFXv+Xa9teH7SME0jdGRoOqTVP98UHgxFJuOinzrCQRctt+amMzobvR+PP8k+2h4Y/be8RewCWB+stg==
   dependencies:
     eventemitter3 "^4.0.7"
 
-"@nodetoy/three-nodetoy@*":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.3.tgz#c41fb217525c91a62a8943033a6a159484994a19"
-  integrity sha512-ZhgcRBsUOjNSD1+kKLQDpPZrgUQVDaPizDGZsdeBX6ViYI5EFtkyjJ678ZDfO2KvVrqACN+/XqJnUjk1w/0Yfg==
+"@nodetoy/three-nodetoy@latest":
+  version "0.1.32"
+  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.32.tgz#6001b68a875326bb9dc08079d822b242f9d317a1"
+  integrity sha512-QAb6dT5laYgNjymrawbYr7MHzIwRRX0Xa8K6xlnsnItKzQAo3+FgKnZgWo07Hbxpb/Wr+Tiz0aEQsbXk+Y9MaQ==
   dependencies:
     "@nodetoy/shared-nodetoy" "^0.2.0"
     three ">=0.143.0"
@@ -1037,6 +1037,14 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+react-dom@>=18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.23.0"
+
 react-reconciler@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.27.0.tgz#360124fdf2d76447c7491ee5f0e04503ed9acf5b"
@@ -1056,6 +1064,13 @@ react-use-measure@^2.1.1:
   integrity sha512-nocZhN26cproIiIduswYpV5y5lQpSQS1y/4KuvUCjSKmw7ZWIS/+g3aFnX3WdBkyuGUtTLif3UTqnLLhbDoQig==
   dependencies:
     debounce "^1.2.1"
+
+react@>=18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
+  dependencies:
+    loose-envify "^1.1.0"
 
 regenerator-runtime@^0.13.11:
   version "0.13.11"
@@ -1109,6 +1124,13 @@ scheduler@^0.21.0:
   version "0.21.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0.tgz#6fd2532ff5a6d877b6edb12f00d8ab7e8f308820"
   integrity sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==
+  dependencies:
+    loose-envify "^1.1.0"
+
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
 
