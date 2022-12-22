@@ -11,6 +11,11 @@
 
 3️⃣ Using ThreeJs instead? Use [Three-NodeToy](https://github.com/NodeToy/three-nodetoy).
 
+## Demos
+
+[https://react-nodetoy.vercel.app/](https://react-nodetoy.vercel.app/)
+
+
 ## Install
 
 With npm:
@@ -42,10 +47,6 @@ If your materials are dynamic (use of Time, CosTime, SinTime, ...) add the `<Nod
 ```tsx
 NodeToyMaterial.tick();
 ```
-
-## Demos
-
-[https://react-nodetoy.vercel.app/](https://react-nodetoy.vercel.app/)
 
 ## Example
 
