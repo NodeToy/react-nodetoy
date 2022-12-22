@@ -7,6 +7,41 @@
 
 [Website](https://nodetoy.co/) &mdash;
 [Twitter](https://twitter.com/nodetoy) &mdash;
+[Discord](https://discord.gg/9ZbGRgZWeV) &mdash;
+
+3️⃣ Using ThreeJs instead? Use [Three-NodeToy](https://github.com/NodeToy/three-nodetoy).
+
+## Install
+
+With npm:
+```sh
+npm i @nodetoy/react-nodetoy
+```
+
+With yarn:
+```sh
+yarm add @nodetoy/react-nodetoy
+```
+
+Import `react-nodetoy` in your project:
+```tsx
+import { NodeToyMaterial } from '@nodetoy/react-nodetoy';
+```
+
+Declare your material inside your mesh component:
+
+```tsx
+<mesh>
+  <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+  <NodeToyMaterial graph="https://draft.nodetoy.co/nFvoIaHuvkvm3uMa" />
+</mesh>
+```
+
+If your materials are dynamic (use of Time, CosTime, SinTime, ...) add the `<NodeToyTick/>` component to your `<canvas>` component. See section `"Update Time / Dynamic uniforms"` for more information.
+
+```tsx
+NodeToyMaterial.tick();
+```
 
 ## Demos
 
@@ -34,7 +69,9 @@ export default function App() {
 }
 ```
 
-If you materials are using any time nodes (Time, SinTime, CosTime...), add the `NodeToyTick` component to your scene. This will update the time of the materials every frame.
+# Update Time / Dynamic uniforms
+
+If you materials are using any time nodes (Time, SinTime, CosTime...), add the `<NodeToyTick/>` component to your canvas component. This will update the time of the materials every frame.
 
 ```tsx
 import { NodeToyMaterial, NodeToyTick } from '@nodetoy/react-nodetoy';
