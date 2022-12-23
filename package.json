@@ -1,6 +1,6 @@
 {
   "name": "@nodetoy/react-nodetoy",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "files": [
     "dist"
   ],
@@ -34,8 +34,8 @@
     "three": ">=0.143.0"
   },
   "dependencies": {
-    "@nodetoy/shared-nodetoy": "latest",
-    "@nodetoy/three-nodetoy": "latest",
+    "@nodetoy/shared-nodetoy": ">=0.2.1",
+    "@nodetoy/three-nodetoy": ">=0.1.34",
     "@react-three/fiber": "^8.9.1",
     "three": ">=0.143.0",
     "react": ">=18.2.0",

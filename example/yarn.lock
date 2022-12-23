@@ -350,19 +350,19 @@
   version "0.0.0"
   uid ""
 
-"@nodetoy/shared-nodetoy@*", "@nodetoy/shared-nodetoy@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@nodetoy/shared-nodetoy/-/shared-nodetoy-0.2.0.tgz#1a2c48ad6563df7585cb1e3dfc80224260c8f5e3"
-  integrity sha512-b4xciwBrFXv+Xa9teH7SME0jdGRoOqTVP98UHgxFJuOinzrCQRctt+amMzobvR+PP8k+2h4Y/be8RewCWB+stg==
+"@nodetoy/shared-nodetoy@>=0.2.1", "@nodetoy/shared-nodetoy@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@nodetoy/shared-nodetoy/-/shared-nodetoy-0.2.1.tgz#7a845de4e84c24f465123c43934dc236ab207534"
+  integrity sha512-VlyKJ2u0sM0fR4qukKvqnKsH1M2c1UZzG5sPg+RSfKK4jfpOU43NqJpPIDYoL+iXu/ivzzeTFW6baQSQ0YqTKQ==
   dependencies:
     eventemitter3 "^4.0.7"
 
-"@nodetoy/three-nodetoy@*":
-  version "0.1.32"
-  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.32.tgz#6001b68a875326bb9dc08079d822b242f9d317a1"
-  integrity sha512-QAb6dT5laYgNjymrawbYr7MHzIwRRX0Xa8K6xlnsnItKzQAo3+FgKnZgWo07Hbxpb/Wr+Tiz0aEQsbXk+Y9MaQ==
+"@nodetoy/three-nodetoy@>=0.1.34":
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.34.tgz#72f1094c1fef88ece4b0f5ad822bd51ac0e7a744"
+  integrity sha512-Jn1eW+/PRMHsDyHg3qpircGXiNzhnBSIA1jj5AB0dEouEjsR6xGmxJN6od8N1HrUSlNJLuumlxhRmrnLmD6r2A==
   dependencies:
-    "@nodetoy/shared-nodetoy" "^0.2.0"
+    "@nodetoy/shared-nodetoy" "^0.2.1"
     three ">=0.143.0"
 
 "@radix-ui/popper@0.1.0":

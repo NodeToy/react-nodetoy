@@ -5,12 +5,14 @@ import {
 	NodeToyMaterial as ThreeNodeToyMaterial,
 	NodeToyCullMode,
 	NodeToyMaterialType,
+	NodeToyMaterialData,
 } from '@nodetoy/three-nodetoy';
 
 extend({ ThreeNodeToyMaterial });
 
 export interface NodeToyMaterialProps {
-    url: string;
+    url?: string;
+	data?: NodeToyMaterialData;
     parameters?: any;
     toneMapped?: boolean;
     flatShading?: boolean;
@@ -34,6 +36,7 @@ const NodeToyMaterial = forwardRef<NodeToyMaterialProps, any>(
 	return <threeNodeToyMaterial
 		ref={ref}
 		url={props.url}
+		data={props.data}
 		parameters={props.parameters}
 		toneMapped={props.toneMapped}
 		flatShading={props.flatShading}
