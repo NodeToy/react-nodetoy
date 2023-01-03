@@ -207,8 +207,19 @@ yarn
 
 ### Development
 
+Run to build `react-nodetoy`
+
 ```bash
 yarn dev
+```
+
+Then install the examples and run the local server
+
+```bash
+cd example
+yarn install
+cd ..
+yarn demo
 ```
 
 and visit `localhost:3004/demo/Basic` to browse the examples in `./example` folder.
