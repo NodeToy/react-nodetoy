@@ -323,19 +323,19 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nodetoy/shared-nodetoy@>=0.2.1", "@nodetoy/shared-nodetoy@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@nodetoy/shared-nodetoy/-/shared-nodetoy-0.2.1.tgz#7a845de4e84c24f465123c43934dc236ab207534"
-  integrity sha512-VlyKJ2u0sM0fR4qukKvqnKsH1M2c1UZzG5sPg+RSfKK4jfpOU43NqJpPIDYoL+iXu/ivzzeTFW6baQSQ0YqTKQ==
+"@nodetoy/shared-nodetoy@>=0.2.21", "@nodetoy/shared-nodetoy@^0.2.21":
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/@nodetoy/shared-nodetoy/-/shared-nodetoy-0.2.21.tgz#ea66973464e9b66da0e247ff9708d25689dae845"
+  integrity sha512-itFQATEfWmbuYSBCHdVw6qY1mPME4JQ4jFEtbspgI+Dk7if4f7WXuNit2wFgLFUXPQ7c1UPUXZsJTBxVFDs6SA==
   dependencies:
     eventemitter3 "^4.0.7"
 
-"@nodetoy/three-nodetoy@>=0.1.34":
-  version "0.1.34"
-  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.34.tgz#72f1094c1fef88ece4b0f5ad822bd51ac0e7a744"
-  integrity sha512-Jn1eW+/PRMHsDyHg3qpircGXiNzhnBSIA1jj5AB0dEouEjsR6xGmxJN6od8N1HrUSlNJLuumlxhRmrnLmD6r2A==
+"@nodetoy/three-nodetoy@>=0.1.36":
+  version "0.1.36"
+  resolved "https://registry.yarnpkg.com/@nodetoy/three-nodetoy/-/three-nodetoy-0.1.36.tgz#445fc01ea1350ce9cf49f30a13c9f284f6026303"
+  integrity sha512-qxsZucryVes7LeB/ezW/dFeESicEk2DrrjwHPwzbXXXKaaCS7/8OBCay8ZzoilVYYoZpeoNNu13KSwx8M6sPmQ==
   dependencies:
-    "@nodetoy/shared-nodetoy" "^0.2.1"
+    "@nodetoy/shared-nodetoy" "^0.2.21"
     three ">=0.143.0"
 
 "@react-three/fiber@^8.9.1":
