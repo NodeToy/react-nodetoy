@@ -25,7 +25,7 @@ npm i @nodetoy/react-nodetoy
 
 With yarn:
 ```sh
-yarm add @nodetoy/react-nodetoy
+yarn add @nodetoy/react-nodetoy
 ```
 
 Import `react-nodetoy` in your project:
