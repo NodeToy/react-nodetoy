@@ -10,7 +10,8 @@
   "exports": {
     ".": {
       "import": "./dist/react-nodetoy.es.js",
-      "require": "./dist/react-nodetoy.umd.js"
+      "require": "./dist/react-nodetoy.umd.js",
+      "types": "./dist/NodeToy.d.ts"
     }
   },
   "scripts": {
